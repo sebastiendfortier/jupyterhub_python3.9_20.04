@@ -1,0 +1,8 @@
+
+
+services:
+  jupyterhub_python3.9_20.04:
+    container_name: jupyterhub_python3.9_20.04
+    build: .
+    ports: 
+      - "8001:8000"
